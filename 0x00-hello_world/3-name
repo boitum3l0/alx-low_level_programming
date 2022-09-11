@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "cisfun" 
+gcc printf "cisfun" 
