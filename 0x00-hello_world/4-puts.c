@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 /**
- *
  * main - c programme entry point
- *
- *
  *
  * Return: Always 0 (success)
  *
