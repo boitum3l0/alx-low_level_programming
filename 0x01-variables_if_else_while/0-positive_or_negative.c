@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - centry point
+ * main - entry point
  *
  * Results: always 0 (success)
  *
