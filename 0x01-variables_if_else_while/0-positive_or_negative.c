@@ -9,7 +9,7 @@
  *
  */
 
- int main(void)
+gcc int main(void)
 
 {
 	int n;
