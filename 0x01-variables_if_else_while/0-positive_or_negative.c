@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - centry point
  *
  * Results: always 0 (success)
  *
@@ -19,10 +19,12 @@ int main(void)
 	if( n>= 0)
 	{
 		printf("%d is positive\n", n);
-	} else if( n<= 0) {
+	} else if( n<= 0)
+	{
 	       printf("%d is negative\n", n);
-	} else {
-		printf("%d is positive", n);
+	} else
+	{
+		printf("%d is zero\n", n);
 	}
 		
 
