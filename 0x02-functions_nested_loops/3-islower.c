@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _islower(int c) - looks for lowercase
+ * _islower - looks for lowercase
  *
  * @c: argument
  *
