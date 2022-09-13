@@ -6,7 +6,7 @@
  *
  */
 
-int main(void);
+int main(void)
 {
 	_putchar("p");
 	_putchar("u");
