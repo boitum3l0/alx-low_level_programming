@@ -17,5 +17,9 @@ int _islower(int c);
 /**
  * checks for lowercase characters
  */
+int _isalpha(int c);
+/**
+ * checks for alphabets
+ */
 
 #endif
