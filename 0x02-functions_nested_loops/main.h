@@ -9,5 +9,9 @@ void print_alphabet(void);
 /**
  * print_alphabet - print_alphabet prints the alphabet
  */
+void print_alphabet_x10(void);
+/**
+ * print_alphabet_x10 - prints alphabet ten times
+ */
 
 #endif
