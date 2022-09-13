@@ -7,7 +7,7 @@ int _putchar(char c);
  */
 void print_alphabet(void);
 /**
- * print_alphabet - unction prints the alphabet
+ * print_alphabet - print_alphabet prints the alphabet
  */
 
 #endif
