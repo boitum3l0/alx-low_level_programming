@@ -21,5 +21,9 @@ int _isalpha(int c);
 /**
  * checks for alphabets
  */
+int print_sign(int n);
+/**
+ * prints sign on number
+ */
 
 #endif
