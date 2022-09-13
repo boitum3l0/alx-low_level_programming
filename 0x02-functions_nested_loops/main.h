@@ -5,5 +5,9 @@ int _putchar(char c);
 /**
  * function prints characters c to standardb output
  */
+void print_alphabet(void);
+/**
+ * function prints the alphabet
+ */
 
 #endif
