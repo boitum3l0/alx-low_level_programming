@@ -10,8 +10,7 @@ void times_table(void)
 
 	do 
 	{	nine *= 9;
-		return (nine);
-		_putchar('\n');
+		_putchar("nine\n");
 		nine++;
 	}
 	while (nine <= 9);
