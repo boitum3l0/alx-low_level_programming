@@ -14,5 +14,4 @@ void times_table(void)
 		nine++;
 	}
 	while (nine <= 9);
-	return (0);
 }
