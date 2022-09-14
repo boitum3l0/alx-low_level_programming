@@ -37,5 +37,13 @@ void jack_bauer(void);
 /**
  * prints every minute of the day of Jack Bauer
  */
+void times_table(void);
+/**
+ *  prints the 9 times table, starting with 0
+ */
+int add(int, int);
+/**
+ * adds to integers and returns result
+ */
 
 #endif
