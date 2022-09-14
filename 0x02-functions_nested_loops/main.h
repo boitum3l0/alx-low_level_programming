@@ -45,5 +45,8 @@ int add(int, int);
 /**
  * adds to integers and returns result
  */
-
+void print_to_98(int n);
+/**
+ * prints natural numbers
+ */
 #endif
