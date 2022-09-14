@@ -25,5 +25,9 @@ int print_sign(int n);
 /**
  * prints sign on number
  */
+int _abs(int);
+/**
+ * computes the absolute value of an integer
+ */
 
 #endif
