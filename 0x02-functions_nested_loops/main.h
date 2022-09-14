@@ -29,5 +29,9 @@ int _abs(int);
 /**
  * computes the absolute value of an integer
  */
+int print_last_digit(int);
+/**
+ *  prints the last digit of a number
+ */
 
 #endif
