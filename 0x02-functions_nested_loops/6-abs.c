@@ -9,6 +9,6 @@ int _abs(int d)
 	if (d < 0)
 	{ d = (-1) * d;
 	}
-	_putchar("%d", d);
+	_putchar("%d\n", d);
 	return (0);
 }
