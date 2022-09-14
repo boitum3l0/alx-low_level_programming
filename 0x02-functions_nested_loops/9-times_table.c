@@ -7,10 +7,11 @@
 void times_table(void)
 {
 	int nine = 0;
+	int prod = 0;
 
 	do {
-		nine *= 9;
-		_putchar(nine + '0');
+		prod = nine *= 9;
+		_putchar(prod + '0');
 	} while (nine <= 9);
 	nine++;
 }
