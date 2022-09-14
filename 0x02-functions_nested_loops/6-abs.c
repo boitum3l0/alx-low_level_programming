@@ -4,8 +4,9 @@
  *
  * Return: always 0
  */
-int _abs(int d)
+int _abs(int)
 {
+	int = d;
 	if (d < 0)
 	{ d = (-1) * d;
 	}
