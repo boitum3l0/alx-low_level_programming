@@ -4,12 +4,12 @@
  *
  * @l: number to be entered
  *
- * Results: the last digit
+ * Return: the last digit
  */
 int print_last_digit(int l)
 {
 	l = l % 10;
 	return (l);
-	_putchar('\n');
+	_putchar("%l\n");
 	return (0);
 }
