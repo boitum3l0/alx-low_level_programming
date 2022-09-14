@@ -9,8 +9,8 @@ void times_table(void)
 	int nine = 0;
 
 	while (nine <= 9)
-	{	nine = (nine *= 9);
-		return (nine)
+	{	nine = nine *= 9;
+		return (nine);
 		_putchar('\n');
 		nine++;
 	}
