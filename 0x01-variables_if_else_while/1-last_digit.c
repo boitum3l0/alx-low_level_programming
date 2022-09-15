@@ -5,12 +5,12 @@
  * main - entry point
  *
  * Return: the last digit */
-int main(int n)
+int main(void)
 {
-	int n = 0
+	int n;
 	int lastDigit = n % 10;
 
-	srand(time(0));
+	srand(tim e(0));
 	n = rand() - RAND_MAX / 2;
 
 	if (lastDigit > 5)
