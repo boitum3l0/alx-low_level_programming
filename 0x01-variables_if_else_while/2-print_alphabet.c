@@ -8,12 +8,9 @@ int main(void)
 {
 	char alpha;
 	
-	srand(time(0));
-	char = rand() - RAND_MAX / 2;
-
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		_putchar(alpha);
+		putchar(alpha);
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
