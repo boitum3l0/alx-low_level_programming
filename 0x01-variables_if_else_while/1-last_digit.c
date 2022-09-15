@@ -7,13 +7,11 @@
  * Return: the last digit */
 int main(void)
 {
-	int n;
+	int n = 0;
 	int lastDigit = n % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
-	int n = 0;
 
 	if (lastDigit > 5)
 	{
