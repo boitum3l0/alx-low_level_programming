@@ -14,5 +14,9 @@ int largest_number(int a, int b, int c);
  * prints remaining days in a year
  */
 void print_remaining_days(int month, int day, int year);
+/**
+ * checks positive or negative
+ */
+int main(void);
 
 #endif
