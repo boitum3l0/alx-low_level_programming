@@ -13,7 +13,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	n = 0;
+	int n = 0;
 
 	if (lastDigit > 5)
 	{
