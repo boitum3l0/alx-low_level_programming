@@ -15,5 +15,7 @@ void print_most_numbers(void);
 /* prints all except two number*/
 void more_numbers(void);
 /* prints 10x numbes*/
+void print_diagonal(int n);
+/* draws diagonal line*/
 
 #endif
