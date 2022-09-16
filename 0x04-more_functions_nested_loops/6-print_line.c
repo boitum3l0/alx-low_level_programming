@@ -5,6 +5,7 @@
  * print_line - draws a straight line
  * @n: input argument
  */
+
 void print_line(int n)
 {
 	if (n <= 0)
