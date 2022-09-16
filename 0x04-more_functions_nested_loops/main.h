@@ -17,5 +17,6 @@ void more_numbers(void);
 /* prints 10x numbes*/
 void print_diagonal(int n);
 /* draws diagonal line*/
+int _putchar(int c)
 
 #endif
