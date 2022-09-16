@@ -9,5 +9,7 @@ int _isdigit(int c);
 /* checks for digit*/
 int mul(int a, int b);
 /* multiplies two integers*/
+void print_number(void);
+/* prints numbes*/
 
 #endif
