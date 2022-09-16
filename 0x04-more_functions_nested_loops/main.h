@@ -13,7 +13,7 @@ void print_numbers(void);
 /* prints numbes*/
 void print_most_numbers(void);
 /* prints all except two number*/
-voire more_numbers(void);
+void more_numbers(void);
 /* prints 10x numbes*/
 
 #endif
