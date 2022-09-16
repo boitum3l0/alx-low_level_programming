@@ -21,5 +21,7 @@ int _putchar(int c);
 /* putchar file*/
 int print_triangle(int c);
 /* prints triangle*/
+void print_line(int n);
+/* prints a line*/
 
 #endif
