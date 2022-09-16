@@ -11,5 +11,7 @@ int mul(int a, int b);
 /* multiplies two integers*/
 void print_numbers(void);
 /* prints numbes*/
+void print_most_numbers(void);
+/* prints all except two number*/
 
 #endif
