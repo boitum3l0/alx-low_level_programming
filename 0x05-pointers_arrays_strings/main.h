@@ -13,5 +13,7 @@ int _strlen(char *s);
 /* function that returns the length of string*/
 void _puts(char *str);
 /* print a string and a new line*/
+void print_rev(char *s);
+/*pritn string in reverse*/
 
 #endif
