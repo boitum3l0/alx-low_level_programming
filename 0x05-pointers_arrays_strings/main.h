@@ -2,7 +2,6 @@
 #define MAIN_H
 
 #include <stdio.h>
-#include "_strlen"
 
 int _putchar(int c);
 /* putchare file to print results*/
