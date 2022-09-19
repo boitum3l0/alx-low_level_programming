@@ -14,5 +14,4 @@ int _strlen(char *s)
 	{
 		return (arrlen);
 	}
-	_putchae('\n');
 }
