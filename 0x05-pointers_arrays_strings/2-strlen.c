@@ -12,7 +12,7 @@ int _strlen(char *s)
 
 	for (arrlen = 0; s[arrlen] != '\0'; arrlen++)
 	{
-		_putchar('arrlen');
+		_putchar(arrlen);
 	}
 	return (0);
 }
