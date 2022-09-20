@@ -13,7 +13,7 @@ void puts_half(char *str)
 
 	if (d % 2 != 0)
 	{
-		c = (d - 1) / 2;
+		int c = (d - 1) / 2;
 	}
 	_putchar(d % 2);
 }
