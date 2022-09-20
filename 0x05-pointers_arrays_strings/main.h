@@ -15,5 +15,7 @@ void _puts(char *str);
 /* print a string and a new line*/
 void print_rev(char *s);
 /*pritn string in reverse*/
+void puts_half(char *str);
+/*print second half of string*/
 
 #endif
