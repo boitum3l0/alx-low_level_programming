@@ -22,5 +22,4 @@ char *_strcat(char *dest, char *src)
 		str[a] = '\0';
 		_putchar(str[a]);
 	}
-	_putchar('\n');
 }
