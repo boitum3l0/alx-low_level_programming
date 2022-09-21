@@ -12,7 +12,7 @@ char *_strcat(char *dest, char *src)
 	int a = 0;
 	int b;
 
-	while (a != '\0')
+	while (a != '\0', a++)
 	{
 		for (b = 0; b !='\0'; b++)
 		{
@@ -21,5 +21,4 @@ char *_strcat(char *dest, char *src)
 		str[a] = '\0';
 		_putchar(str[a]);
 	}
-	a++;
 }
