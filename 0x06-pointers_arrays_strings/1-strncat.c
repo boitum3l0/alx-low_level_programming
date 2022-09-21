@@ -7,7 +7,7 @@
  * @n: max number of bytes
  */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int a;
 	int b;
