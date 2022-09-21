@@ -18,8 +18,8 @@ char *_strcat(char *dest, char *src)
 		{
 			dest[a] = src[b];
 		}
-		a++;
 		str[a] = '\0';
 		_putchar(str[a]);
 	}
+	a++;
 }
