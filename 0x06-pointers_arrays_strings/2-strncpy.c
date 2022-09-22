@@ -8,7 +8,7 @@
  * Return: copy of string in dest
  */
 
-char _strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int b = 0;
 
