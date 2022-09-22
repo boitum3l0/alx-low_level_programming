@@ -15,11 +15,11 @@ int *_strcmp(char *s1, char *s2)
 	{
 		 if (s1[n] - s2[n] == 0)
 		{
-			return 1;
+			return (1);
 		}
 		else
 		{
-			return 0;
+			return (0);
 		}
 	n++;
 	}
