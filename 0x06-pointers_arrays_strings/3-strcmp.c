@@ -11,9 +11,9 @@ int _strcmp(char *s1, char *s2)
 {
 	int n = 0;
 
-	while (s2[n] - s1[n] == 0 && s2[n] != '\0')
+	while (s1[n] - s2[n] == 0 && s1[n] != '\0')
 	{
 		n++;
 	}
-	return (s2[n] - s1[n]);
+	return (s1[n] - s2[n]);
 }
