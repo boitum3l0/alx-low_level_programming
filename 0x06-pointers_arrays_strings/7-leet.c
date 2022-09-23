@@ -13,12 +13,13 @@ char *leet(char *i)
 	char m[] = "aAeEoOtTlL";
 	char n[] = "4433007711";
 
-	for (c = 0; *(s + c); c++)
+	for (c = 0; *(i + c); c++)
 	{
 		for (d = 0; d <= 9; d++)
 		{
-			if (m[d] == *(s + c))
-				*(s + i) = n[d];
+			if (m[d] == *(i + c))
+				*(i + c) = n[d];
 		}
 	}
+	return (i);
 }
