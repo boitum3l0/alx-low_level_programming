@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strchr - finds characters in a string
+ * _strchr - finds first occurance of a character in a string
  * @s: string to check through
  * @c: character to search for
  * Return: c
@@ -13,10 +13,6 @@ char *_strchr(char *s, char c)
 		if (*s == c)
 		{
 			return (s);
-		}
-		else
-		{
-			return (NULL);
 		}
 		s++;
 	}
