@@ -11,10 +11,7 @@ int _pow_recursion(int x, int y)
 {
 	int res = 1;
 	int i = 1;
-<<<<<<< HEAD
-=======
 
->>>>>>> 01a467408a2948c3e069b201b19b5043da08c75d
 	if (y < 0)
 	{
 		return (-1);
