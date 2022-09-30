@@ -29,12 +29,12 @@ int is_prime_number(int n)
 {
 	int q = n / 2;
 
-	if (n > 1)
+	if (n <= 1)
 	{
-		return (_prime(n, q));
+		return (0);
 	}
 	else
 	{
-		return (0);
+		return (_prime(n, q));
 	}
 }
