@@ -35,9 +35,9 @@ int is_prime_number(int n)
 {
 	int q = n / 2;
 
-	if (n <= 1)
+	if (n > 1)
 	{
-		return (_prime(n, p));
+		return (_prime(n, q));
 	}
 	else
 	{
