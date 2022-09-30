@@ -10,13 +10,19 @@ int _prime(int p, int q)
 {
 	if (p % q == 0)
 	{
-		return (0);
+		if (p == q)
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
 	}
-	else if (q <= 1)
+	else
 	{
-		return (1);
+		return (_prime(p, q - 1));
 	}
-	return (_prime(p, q - 1));
 }
 
 /**
@@ -31,10 +37,10 @@ int is_prime_number(int n)
 
 	if (n <= 1)
 	{
-		return (0);
+		return (_prime(n, p));
 	}
 	else
 	{
-		return (_prime(n, q));
+		return (0);
 	}
 }
