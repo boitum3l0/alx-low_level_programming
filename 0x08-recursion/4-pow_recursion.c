@@ -16,10 +16,12 @@ int _pow_recursion(int x, int y)
 	{
 		return (-1);
 	}
-	else if (i <= y)
+	else if (y == 0)
 	{
-		res *= x;
-		_pow_recursion(i++);
+		return (1);
 	}
-	return (res);
+	else
+	{
+		return (x * _pow_recursion(x, y - 1));
+	}
 }
