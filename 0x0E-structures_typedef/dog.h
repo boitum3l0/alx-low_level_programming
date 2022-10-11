@@ -4,15 +4,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+ * File: dog.h
+ * Desc: Header file describing structure types
+ */
+
 /**
- * header file describing structure types
+ * struct dog - Structure type for a dog
+ * @name: Name of dog
+ * @age: age of dog
+ * @owner: name of dog owner
  */
 
 struct dog
 {
 	char *name;
 	float age;
-	char *name;
+	char *owner;
 };
 
 #endif
