@@ -1,9 +1,18 @@
+#ifndef DOG_H
+#define DOG_H
+
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct dog
+/**
+ * header file describing structure types
+ */
+
+struct dog
 {
 	char *name;
 	float age;
 	char *name;
-} dog;
+};
+
+#endif
