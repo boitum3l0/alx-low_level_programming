@@ -8,7 +8,7 @@
  */
 print_name(char *name, void (*f)(char *))
 {
-	char n;
+	char *n;
 
 	void f(char *)
 	{
