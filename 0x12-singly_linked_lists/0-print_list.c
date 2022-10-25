@@ -8,7 +8,7 @@
 size_t print_list(const list_t *h)
 {
 	unsigned int i = 0;
-	const lists_t *ptr = NULL;
+	const list_t *ptr = NULL;
 	char *nil = "(nil)";
 	ptr = h;
 
