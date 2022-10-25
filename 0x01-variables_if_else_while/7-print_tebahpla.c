@@ -2,7 +2,7 @@
 
 /**
  * main - print alhabet in lowecase and reverse
- * Retrun: 0
+ * Return: 0
  */
 int main(void)
 {
