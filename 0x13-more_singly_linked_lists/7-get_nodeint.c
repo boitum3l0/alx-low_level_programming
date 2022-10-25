@@ -5,13 +5,13 @@
  * @head: head of a list.
  * @index: index of the node.
  *
- * Return: nth node. if node does not exist, returns NULL.
+ * Return: nth node if it exists, if not returns NULL.
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-	unsigned int i;
+	unsigned int count;
 
-	for (i = 0; i < index && head != NULL; i++)
+	for (count = 0; count < index && head != NULL; count++)
 	{
 		head = head->next;
 	}
