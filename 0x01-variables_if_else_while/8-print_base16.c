@@ -2,7 +2,7 @@
 
 /**
  * main - print single digits from 0
- * Retrun: 0
+ * Return: 0
  */
 int main(void)
 {
@@ -11,7 +11,7 @@ int main(void)
 
 	for (num = 0; num < 10; num++)
 	{
-		puthcar(num + '0');
+		putcar(num + '0');
 	}
 	for (c = 'a'; c <= 'f'; c++)
 	{
